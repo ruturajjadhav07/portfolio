@@ -1,11 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-
 const Main = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark  px-3">
+    <nav className="navbar navbar-expand-lg navbar-dark sticky-top px-3">
       <button
         className="navbar-toggler"
         type="button"
@@ -17,13 +17,20 @@ const Main = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <div
+        className="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
         <ul className="navbar-nav gap-4">
           <li className="nav-item">
-            <a className="nav-link text-white fs-5 fw-bold" href="#">Home</a>
+            <a className="nav-link text-white fs-5 fw-bold" href="#about">
+              Home
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white fs-5 fw-bold" href="#">Projects</a>
+            <a className="nav-link text-white fs-5 fw-bold" href="#projects">
+              Projects
+            </a>
           </li>
         </ul>
       </div>

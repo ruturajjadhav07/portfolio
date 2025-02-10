@@ -1,16 +1,17 @@
 import React from "react";
-import Main from "./Components/Main"
+import Main from "./Components/Main";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Main />
-      <About />
+     <div>
+      <Main/>
+      <About/>
       <Projects/>
-    </div> 
+     </div>
+      
   );
-}
+};
 
 export default App;
