@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons
 
 const Connect = () => {
   return (
-    <div className="container text-center mt-2 mb-2"  style={{ fontFamily: "'Caveat', cursive" }}>
+    <div className="container text-center mt-2 mb-2"  style={{ fontFamily: "monospace" }}>
       <h5 className="text-success fw-bold ">🌍 Connect with Me</h5>
       <div className="d-flex justify-content-center gap-3 mt-2">
         {/* LinkedIn */}

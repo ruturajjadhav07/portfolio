@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Projects = () => {
   return (
-    <div className="container text-white col-md-8 col-sm-12" style={{ fontFamily: "'Caveat', cursive" }} id="projects">
+    <div className="container text-white col-md-8 col-sm-12" style={{ fontFamily: "monospace" }} id="projects">
       <h3 className="text-success mt-4 fw-bold">🚀 My Projects</h3>
 
       <div className="row mt-3">

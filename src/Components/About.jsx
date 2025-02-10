@@ -21,7 +21,7 @@ const About = () => {
     <div id="about">
       <div
         className="container text-white col-md-8 py-4"
-        style={{ fontFamily: "'Caveat', cursive" }}
+        style={{ fontFamily: "monospace" }}
       >
         <div className="text-center mb-4">
           <h2 className="fw-bold fs-1 text-warning">Ruturaj Satish Jadhav</h2>
