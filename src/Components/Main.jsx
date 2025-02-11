@@ -32,6 +32,9 @@ const Main = () => {
               Projects
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link text-white fs-5 fw-bold" href="https://docs.google.com/document/d/12X3R-IdBnpUN5Q3AJTZn9WtFrQUZsq5Uup9fwfzDMi0/edit?usp=sharing">Resume</a>
+          </li>
         </ul>
       </div>
     </nav>
