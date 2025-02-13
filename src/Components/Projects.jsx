@@ -57,12 +57,11 @@ const Projects = () => {
         <div className="col-md-6 col-sm-12 mb-4">
           <div className="card h-100">
             <div className="card-body d-flex flex-column">
-              <h5 className="card-title text-warning fw-bold">✨ Basic Java Questions</h5>
+              <h5 className="card-title text-warning fw-bold">Med Connect 💊</h5>
               <p className="card-text text-white">
-                A collection of <strong>essential Java programs</strong> covering loops, arrays, recursion, and user input. Perfect for beginners.
-              </p>
-              <a href="https://github.com/ruturajjadhav07/Basic-Java-Questions-For-Beginners" className="btn btn-outline-warning mt-auto fw-bold">
-                Click Me
+              A React app that locates nearby <strong>medical stores</strong> using geolocation and Google Maps. Users can search, filter by distance, ratings, and open status, and view locations on an interactive map.              </p>
+              <a href="https://github.com/ruturajjadhav07/Med-Connect" className="btn btn-outline-warning mt-auto fw-bold">
+                Comming Soon 
               </a>
             </div>
           </div>
