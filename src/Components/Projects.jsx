@@ -42,12 +42,12 @@ const Projects = () => {
         <div className="col-md-6 col-sm-12 mb-4">
           <div className="card h-100">
             <div className="card-body d-flex flex-column">
-              <h5 className="card-title text-success fw-bold">🔧 Mechanic Finder</h5>
+              <h5 className="card-title text-success fw-bold">📦 Customer-Order-Backend</h5>
               <p className="card-text text-white">
-                A <strong>Java-based web app</strong> to connect users with mechanics. Includes <strong>service requests, reviews, and dashboards</strong> for Users, Mechanics, and Admins.
+              A <strong>Spring Boot-powered backend</strong> that streamlines order management, customer handling, product inventory, and payments. It provides secure RESTful APIs for order processing, tracking, and efficient business operations.
               </p>
-              <a href="https://github.com/ruturajjadhav07/E-Mechanic-Finder-" className="btn btn-outline-success mt-auto fw-bold">
-                Learn More
+              <a href="https://github.com/ruturajjadhav07/Customer-Order-Backend" className="btn btn-outline-success mt-auto fw-bold">
+                View Project
               </a>
             </div>
           </div>
