@@ -1,18 +1,15 @@
 import React from "react";
-import Main from "./Components/Main";
-import About from "./Components/About";
-import Projects from "./Components/Projects";
-import Connect from "./Components/Connect"
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "./Components/Nav";
 const App = () => {
   return (
-     <div>
-      <Main/>
-      <About/>
-      <Projects/>
-      <Connect/>
-     </div>
-      
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Nav />} />
+        </Routes>
+      </Router>
+    </div>
   );
 };
 
