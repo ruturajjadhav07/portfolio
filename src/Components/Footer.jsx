@@ -5,7 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Connect = () => {
   return (
     <div>
-      <div className="container text-center mt-2 mb-2">
+      <div className="container text-center mb-4">
         <hr style={{ border: "1px solid #444c56"}}/>
         <h5 className="fw-bold ">Connect with Me</h5>
         <div className="d-flex justify-content-center gap-3 mt-2">

@@ -6,7 +6,7 @@ import Footer from "./Footer"
 const Project = () => {
   return (
     <div id="projects">
-      <div className="d-flex flex-column align-items-center" >
+      <div className="d-flex flex-column align-items-center mt-2 mb-4" >
         {/* First Project */}
         <div className="col-md-10">
           <h2 className="mt-2 text-light">Recent Projects</h2>
@@ -122,7 +122,7 @@ const Project = () => {
 
         {/* Other Useful Repositories */}
         <div className="mt-2 col-md-10">
-          <h2 className="text-light">Other Useful Repositories</h2>
+          <h2 className="text-light mt-2">Other Useful Repositories</h2>
 
           {/* Row 1 */}
           <div className="row">
